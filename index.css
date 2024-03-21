@@ -1390,6 +1390,12 @@ font-family: 'Rubik', sans-serif;
     #sent {
         width: 14%;
     }
+    .kind {
+        margin-top: 27%;
+        width: 26%;
+        font-size: 9px;
+        margin-left: 458px;
+    }
 }
 @media(max-width:650px){
     .container5 {
@@ -1784,6 +1790,25 @@ font-family: 'Rubik', sans-serif;
     #grow {
         margin-top: -15%;
     }
+    .center img {
+        height: 25vh;
+        width: 120%;
+        align-items: center;
+        margin-left: -30px;
+        display: flex;
+        border: 2px solid #313030;
+        border-radius: 20px;
+    }
+    .went {
+        margin-left: 11%;
+        margin-top: 266px;
+        font-size: 11px;
+    }
+    .jack {
+        margin-left: 54%;
+        font-size: 11px;
+        margin-top: 266px;
+    }
 }
 @media(max-width:500px){
     .footers3{
@@ -1873,6 +1898,42 @@ font-family: 'Rubik', sans-serif;
     }
     #grow {
         margin-top: -18%;
+    }
+    .center img {
+        height: 25vh;
+        width: 126%;
+        align-items: center;
+        margin-left: -45px;
+        display: flex;
+        border: 2px solid #313030;
+        border-radius: 20px;
+        /* margin-left: 20%; */
+    }
+    .went {
+        margin-left: 11%;
+        margin-top: 271px;
+        font-size: 11px;
+    }
+    .jack {
+        margin-top: 271px;
+    }
+    .forms button {
+        width: 11%;
+        font-size: 13px;
+        height: 6vh;
+    }
+    #sent {
+        width: 13%;
+        height: 6vh;
+        font-size: 12px;
+    }
+    #rent {
+        margin-left: 28%;
+        font-size: 20px;
+        margin-top: -26px;
+    }
+    #less {
+        margin-top: 4%;
     }
 }
 @media(max-width:450px){
@@ -1983,6 +2044,53 @@ font-family: 'Rubik', sans-serif;
     #grow {
         margin-top: -20%;
         margin-left: -2px;
+    }
+    .center img {
+        height: 25vh;
+        width: 138%;
+        align-items: center;
+        margin-left: -53px;
+        display: flex;
+        border: 2px solid #313030;
+        border-radius: 20px;
+        /* margin-left: 20%; */
+    }
+    .mention {
+        margin-left: 13px;
+        width: 97%;
+        font-size: 14px;
+    }
+    .mention i {
+        font-size: 21px;
+        margin-left: -5px;
+    }
+    .went {
+        margin-left: 11%;
+        margin-top: 268px;
+        font-size: 11px;
+    }
+    .jack {
+        margin-top: 268px;
+    }
+    #sent {
+        width: 15%;
+        font-size: 13px;
+        height: 6vh;
+    }
+    .forms button {
+        width: 13%;
+        height: 6vh;
+        font-size: 13px;
+    }
+    #rent {
+        margin-left: 16%;
+        margin-top: -25px;
+        font-size: 18px;
+        text-align: center;
+    }
+    #less {
+        margin-top: 6%;
+        font-size: 19px;
     }
 }
 @media(max-width:400px){
@@ -2096,6 +2204,34 @@ font-family: 'Rubik', sans-serif;
     }
     #grow {
         margin-top: -23%;
+    }
+    .center img {
+        height: 25vh;
+        width: 154%;
+        align-items: center;
+        margin-left: -65px;
+        display: flex;
+        border: 2px solid #313030;
+        border-radius: 20px;
+        /* margin-left: 20%; */
+    }
+    .forms button {
+        width: 13%;
+        height: 6vh;
+        font-size: 13px;
+    }
+    #sent {
+        width: 16%;
+        font-size: 12px;
+        height: 6vh;
+    }
+    #rent {
+        margin-left: 16%;
+        font-size: 15px;
+    }
+    #less {
+        font-size: 17px;
+        margin-top: 6%;
     }
 }
 @media(max-width:350px){
@@ -2285,6 +2421,40 @@ font-family: 'Rubik', sans-serif;
         margin-top: -25%;
         margin-left: 10px;
     }
+    .center img {
+        height: 20vh;
+        width: 159%;
+        /* background-size: cover; */
+        align-items: center;
+        margin-left: -61px;
+        display: flex;
+        border: 2px solid #313030;
+        border-radius: 20px;
+        /* margin-left: 20%; */
+    }
+    .mention i {
+        font-size: 20px;
+    }
+    .went {
+        font-size: 11px;
+    }
+    .jack {
+        font-size: 11px;
+    }
+    #sent {
+        width: 17%;
+        font-size: 12px;
+        height: 6vh;
+    }
+    #less {
+        margin-top: 8%;
+        font-size: 17px;
+    }
+    #rent {
+        margin-left: 16%;
+        font-size: 14px;
+        margin-top: -25px;
+    }
 }
 @media(max-width:300px){
     .encounter h3 {
@@ -2471,5 +2641,29 @@ font-family: 'Rubik', sans-serif;
     #grow {
         margin-top: -30%;
         font-size: 17px;
+    }
+    .center img {
+        height: 20vh;
+        width: 166%;
+        align-items: center;
+        margin-left: -61px;
+        display: flex;
+        border: 2px solid #313030;
+        border-radius: 20px;
+    }
+    .went {
+        margin-left: 11%;
+        margin-top: 269px;
+        font-size: 10px;
+    }
+    .jack {
+        margin-left: 54%;
+        font-size: 10px;
+        margin-top: 271px;
+    }
+    #rent {
+        margin-left: 0%;
+        font-size: 13px;
+        margin-top: -23px;
     }
 }
