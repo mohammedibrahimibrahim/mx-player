@@ -136,7 +136,7 @@ body{
     right:20px;
 }
 #check {display:none;}
-@media(max-width: 610px){
+@media(max-width: 900px){
     .menu{
         flex-direction: column;
         align-items: center;
@@ -189,19 +189,12 @@ font-family: 'Rubik', sans-serif;
     border: 2px solid rgb(1, 0, 2);
     box-shadow: 2px 2px 3px rgb(0, 38, 255);
 }
-/* .forms button:hover{
-    width: 8%;
-    height: 7vh;
-    background-color: #0079ff;
-    color: white;
-    border-radius: 8px;
-    margin-top: 30px;
-    font-size: 18px;
-    border: none;
-    border: 2px solid rgb(1, 0, 2);
-    box-shadow: 2px 2px 5px rgb(0, 38, 255);
-
-} */
+.forms button:hover{
+    border: 2px solid rgb(123, 0, 255);
+    box-shadow: 2px 2px 5px rgb(234, 2, 255);
+    /* transition: 1s;
+    transform: scale(1.1); */
+}
 .forms button i{
     margin-left: 0px;
 }
@@ -983,6 +976,57 @@ font-family: 'Rubik', sans-serif;
         margin-left: 2%;
         position: absolute;
     }
+    .menu {
+        width: 20%;
+        right: 0;
+    }
+    #git {
+        width: 116%;
+        height: 4vh;
+        margin-left: -4px;
+    }
+    .menu li{
+        margin-top: 11px;
+        font-size: 14px;
+    }
+    .menu li a{
+        padding: 6px;
+    }
+    .menu h3 {
+        margin-right: -37px;
+    }
+    #dont{
+        margin-left: -4px;
+        margin-top: -30px;
+        position: absolute;
+        font-size: 16px;
+    }
+    #tt{
+        margin-left: -4px;
+        margin-top: -5px;
+        position: absolute;
+        font-size: 16px;
+    }
+    #glass{
+        margin-left: -2px;
+        font-size: 15px;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu h3 {
+        margin-right: -21px;
+    }
 }
 @media(max-width:850px){
     .mention {
@@ -1067,6 +1111,14 @@ font-family: 'Rubik', sans-serif;
     }
     #sent {
         width: 12%;
+    }
+    .menu {
+        font-size: 14.5px;
+        margin-left: 22px;
+    }
+    #glass{
+        margin-left: -2px;
+        font-size: 15px;
     }
 }
 @media(max-width:800px){
@@ -1210,6 +1262,10 @@ font-family: 'Rubik', sans-serif;
         width: 13%;
         height: 7vh;
     }
+    .menu {
+        font-size: 12.5px;
+        margin-left: 10px;
+    }
 }
 @media(max-width:750px){
     ul {
@@ -1296,6 +1352,10 @@ font-family: 'Rubik', sans-serif;
         background: #383738;
         width: 12%;
         height: 7vh;
+    }
+    #git {
+        width: 116%;
+        height: 4vh;
     }
 }
 @media(max-width:700px){
@@ -1395,6 +1455,10 @@ font-family: 'Rubik', sans-serif;
         width: 26%;
         font-size: 9px;
         margin-left: 458px;
+    }
+    .menu {
+        font-size: 10.5px;
+        margin-left: 10px;
     }
 }
 @media(max-width:650px){
@@ -1535,7 +1599,19 @@ font-family: 'Rubik', sans-serif;
         margin-top: -12%;
         padding: 28px;
         position: relative;
-    }   
+    }
+    .menu h3 {
+        margin-right: 28px;
+        font-size: 14px;
+    }
+    .menu {
+        font-size: 8.5px;
+        margin-left: 10px;
+    }
+    .menu h3 {
+        margin-right: -12px;
+        font-size: 14px;
+    }
 }
 
 @media(max-width:600px){
@@ -1693,6 +1769,10 @@ font-family: 'Rubik', sans-serif;
         margin-top: -12%;
         margin-left: 13px;
     }
+    /* #git{
+        height: 5vh;
+        width: 115%;
+    } */
 }
 @media(max-width:550px){
     .kind{
@@ -2232,6 +2312,11 @@ font-family: 'Rubik', sans-serif;
     #less {
         font-size: 17px;
         margin-top: 6%;
+    }
+    #git{
+        font-size: 7px;
+        width: 115%;
+        text-align: center;
     }
 }
 @media(max-width:350px){
